@@ -1,8 +1,11 @@
 # 01-使用spring-cloud-contract与TestContainer构建可靠程序
 
 > **笔者了解了 spring-cloud-contract 的用法之后，尝试了下，目前感觉这个还是太不智能，不推荐使用**
-> 原始视频地址：
-> 个人翻译地址：
+
+ - 原始视频地址：https://www.youtube.com/watch?v=9Mc9Yonj9gs&list=PLgGXSWYM2FpPrAdQor9pi__EV1O69Qbom&index=6
+ - 个人翻译地址：https://www.bilibili.com/video/BV1nU421Z7h8/
+ - 个人总结代码与介绍地址：https://github.com/HashZhang/SpringOne-2023/tree/main/01-%E4%BD%BF%E7%94%A8spring-cloud-contracts%E4%B8%8ETestContainer%E6%9E%84%E5%BB%BA%E5%8F%AF%E9%9D%A0%E7%A8%8B%E5%BA%8F
+
 
 我们在协作微服务的时候，可能是不同的人写的，不同的团队写的，不同的语言写的，不同的框架写的。通信方式也千奇百怪，可以通过 http 调用，grpc 调用，或者通过消息队列 kafka 这种异步方式通信。但是，核心其实就是我们之间达成某种约定，约定好数据的格式。这样，我们就需要一种方式，来保证我们的微服务之间的协作即数据格式是可靠的。
 

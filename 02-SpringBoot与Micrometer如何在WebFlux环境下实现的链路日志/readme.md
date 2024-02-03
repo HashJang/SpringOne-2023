@@ -1,7 +1,8 @@
 # 02-SpringBoot与Micrometer如何在WebFlux环境下实现的链路日志
 
-- 视频原始地址：
-- 个人翻译地址：
+- 视频原始地址：https://www.youtube.com/watch?v=xF7aZJlfTSw&list=PLgGXSWYM2FpPrAdQor9pi__EV1O69Qbom&index=25
+- 个人翻译地址：https://www.bilibili.com/video/BV12K421y7kF/
+- 个人总结代码与介绍地址：https://github.com/HashZhang/SpringOne-2023/blob/main/02-SpringBoot%E4%B8%8EMicrometer%E5%A6%82%E4%BD%95%E5%9C%A8WebFlux%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%9E%E7%8E%B0%E7%9A%84%E9%93%BE%E8%B7%AF%E6%97%A5%E5%BF%97
 
 我们可以在日志中加入链路信息，这样我们可以找到某个请求，某个事务所有的日志，这样就可以方便的进行问题排查。并且，我们还可以通过 traceId 找到不同微服务调用链路相关的日志。 在 Spring Boot 3.x 之前，我们一般用 spring-cloud-sleuth 去实现，但是在 Spring Boot 3.x 之后，已经去掉了对于 sleuth 的原生支持，全面改用了 micrometer。
 
