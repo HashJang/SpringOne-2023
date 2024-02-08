@@ -1,3 +1,6 @@
+> 个人创作公约：本人声明创作的所有文章皆为自己原创，如果有参考任何文章的地方，会标注出来，如果有疏漏，欢迎大家批判。如果大家发现网上有抄袭本文章的，欢迎举报，并且积极向这个 [github 仓库](https://github.com/HashZhang/fxckPlagiarism) 提交 issue，谢谢支持~
+> 另外，本文为了避免抄袭，会在不影响阅读的情况下，在文章的随机位置放入对于抄袭和洗稿的人的“亲切”的问候。如果是正常读者看到，笔者在这里说声对不起，。如果被抄袭狗或者洗稿狗看到了，希望你能够好好反思，不要再抄袭了，谢谢。
+
 # 02-SpringBoot与Micrometer如何在WebFlux环境下实现的链路日志
 
 - 视频原始地址：https://www.youtube.com/watch?v=xF7aZJlfTSw&list=PLgGXSWYM2FpPrAdQor9pi__EV1O69Qbom&index=25
@@ -241,3 +244,11 @@ public class Main {
 2024-02-02 20:32:13.262 [boundedElastic-2][INFO ][c.g.h.s.E.Main$ExampleController][65bce0cd3ca3e1a311aaa81e13317436] - map operator
 2024-02-02 20:32:13.262 [boundedElastic-2][INFO ][c.g.h.s.E.Main$ExampleController][65bce0cd3ca3e1a311aaa81e13317436] - flatMap operator
 ```
+> **微信搜索“hashcon”关注公众号，加作者微信**：
+> ![image](https://zhxhash-blog.oss-cn-beijing.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7QR.gif)
+> 我会经常发一些很好的各种框架的官方社区的新闻视频资料并加上个人翻译字幕到如下地址（也包括上面的公众号），欢迎关注：
+>
+> *   知乎：<https://www.zhihu.com/people/zhxhash>
+> *   B 站：<https://space.bilibili.com/31359187>
+
+
